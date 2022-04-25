@@ -1,0 +1,46 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.img-capa {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.msc-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 170px;
+}
+
+.msc-info h2 {
+    color: #000000;
+    padding-right: 12px;
+}
+
+/* Letras */
+
+.lyrics-back {
+    position: absolute;
+    left: 10px;
+    top: 100px;
+}
+
+.about-msc {
+    position: absolute;
+    left: 350px;
+    top: 150px;
+    border-left: 1px solid #dadce0;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 650px) {
+    .about-msc {
+        left: 250px;
+    }
+  }
